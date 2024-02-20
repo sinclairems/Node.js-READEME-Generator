@@ -1,19 +1,19 @@
 // TODO: Include packages needed for this application
-import inquirer from 'inquirer';
+const inquirer = require('inquirer');
 
 // TODO: Create an array of questions for user input
 const questions = [
     {
     type: 'list',
     name: 'license',
-    message: 'What license do you want to use?',
+    message: 'Use the arrow and Enter keys to select the license.',
     choices: ['MIT', 'Apache', 'GPL', 'BSD', 'None']
     },
 
     {
     type: 'input',
     name: 'title',
-    message: 'What is the title of your project?'
+    message: 'Provide a title for your project.'
     },
 
     {
@@ -24,44 +24,50 @@ const questions = [
 
     {
     type: 'input',
-    name: 'table of contents',
-    message: 'Provide a table of contents for your project.'
-    }
+    name: 'tableOfContents',
+    message: 'Provide an optional table of contents.'
+    },
 
     {
     type: 'input',
     name: 'installation',
-    message: 'What are the installation instructions for your project?'
+    message: 'Optional installation instructions:'
     },
 
     {
     type: 'input',
     name: 'usage',
-    message: 'What is the usage information for your project?'
+    message: 'Optional usgae information:'
     },
 
     {
     type: 'input',
-    name: 'contribution',
-    message: 'What are the contribution guidelines for your project?'
+    name: 'credits',
+    message: 'List collaborators and associated links.'
+    },
+
+    {
+    type: 'input',
+    name: 'contribute',
+    message: 'Optional contribution guidelines.'
     },
 
     {
     type: 'input',
     name: 'test',
-    message: 'What are the test instructions for your project?'
-    },
-
-    {
-    type: 'input',
-    name: 'username',
-    message: 'What is your GitHub username?'
+    message: 'Optional test instructions.'
     },
 
     {
     type: 'input',
     name: 'email',
-    message: 'What is your email address?'
+    message: 'Optional email address:'
+    },
+
+    {
+    type: 'input',
+    name: 'username',
+    message: 'GitHub username:'
     }
 ];
 
@@ -82,3 +88,4 @@ function init() {
 
 // Function call to initialize app
 init();
+
