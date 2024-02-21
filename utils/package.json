@@ -1,14 +1,23 @@
 {
-  "name": "node-CLI-App",
-  "version" : "1.0.0",
-  "description": "A simple CLI app",
+  "name": "node.js-reademe-generator",
+  "version": "1.0.0",
+  "description": "A simple CLI App",
   "main": "index.js",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "node.js-readme-generator"
+  },
+  "keywords": [
+    "node.js",
+    "readme"
+  ],
   "author": "ErinMS",
-  "license": "ISC",
-  "dependencies": {
-    "inquirer": "^8.2.4"
-  }
+  "license": "MIT"
 }
