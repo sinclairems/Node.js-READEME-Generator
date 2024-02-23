@@ -1,9 +1,11 @@
-// TODO: Include packages needed for this application
+// Importing inquirer 8.2.4
 const inquirer = require('inquirer')
+// Importing fs
 const fs = require('fs')
+// Importing local module 
 const generateMarkdown = require('./utils/generateMarkdown')
 
-// TODO: Create an array of questions for user input
+// README Questions Array
 const questions = [
   {
     type: 'list',
@@ -73,14 +75,14 @@ const questions = [
   }
 ];
 
-// TODO: Create a function to write README file
+// Function to write README
 function writeToFile (fileName, data) {
   fs.writeFile(fileName, data, (err) =>
     err ? console.error(err) : console.log('Success!')
   )
 };
 
-// TODO: Create a function to initialize app
+// Function to initialize 
 function init () {
   inquirer.prompt(questions).then((answers) => {
     console.log(answers)
@@ -88,5 +90,5 @@ function init () {
   })
 };
 
-// Function call to initialize app
+// Function call
 init();
