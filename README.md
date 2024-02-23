@@ -1,19 +1,19 @@
 # Node
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   ## Description
-  Node stuff
+  Node Stuff
   ## Table of Contents
-    1 2 3 4 5
+    1. How it works
   ## Installation
-  Probably don't
+  Install npm i inquirer@8.2.4
   ## Usage
-  Ask your mom
+  This can make a README for you!
   ## Credits
-  Everyone except me
+  
   ## How to Contribute
-  Just don't 
+  
   ## Test
-  Na
+  Try it!
   ## Questions
-  If you have any questions, please feel free to contact me at wowow@gmail.com.
-  You can also find me on GitHub: [wowow]
+  If you have any questions, please feel free to contact me at .
+  You can also find me on GitHub: [sinclair.ems]
