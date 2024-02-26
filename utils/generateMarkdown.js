@@ -13,7 +13,6 @@ function renderLicenseBadge (license) {
   }
 }
 
-
 // Function to generate markdown data
 function generateMarkdown (data) {
   return `# ${data.title}
