@@ -1,19 +1,24 @@
-# Node
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+# Node!
   ## Description
-  Node Stuff
+  Node
   ## Table of Contents
-    1. How it works
+    nodenodenode
   ## Installation
-  Install npm i inquirer@8.2.4
+  
   ## Usage
-  This can make a README for you!
+  
   ## Credits
   
   ## How to Contribute
   
   ## Test
-  Try it!
+  
   ## Questions
-  If you have any questions, please feel free to contact me at .
-  You can also find me on GitHub: [sinclair.ems]
+  If you have any questions, please feel free to contact me at erin@me.com.
+  You can also find me on GitHub: sinclairems
+  
+## License
+[![GPL License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
+This project is licensed under the GPL license.
+
